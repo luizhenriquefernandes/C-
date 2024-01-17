@@ -1,2 +1,2 @@
-# C-
+# CPP
 Aprendendo Lógica com C++
