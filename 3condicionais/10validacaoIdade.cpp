@@ -12,6 +12,7 @@
  #include<iostream>
  #include<string>
  #include<ctime>
+#include <time.h>
  // Incluindo as bibliotecas necessárias para manipulação de localidade, entrada/saída, strings e tempo
  int main(){
     setlocale(LC_ALL, "pt-BR.UTF-8");
@@ -26,17 +27,68 @@
     std::cout<<"Digite seu Ano de Nascimento"<<std::endl;
     std::cin>>anoNascimento;
     // Solicitando e lendo o ano de nascimento do usuário
-    std::time_t tempoAtual = std:: time(nullptr);
-    std::tm* tempoLocal = std::localtime(&tempoAtual);
+    // std::time_t tempoAtual = std:: time(nullptr);
+    // std::tm* tempoLocal = std::localtime(&tempoAtual);
     // Obtendo o tempo atual do sistema e convertendo para a representação de tempo local
+    std::time_t tempoAtual;
+    std::tm tempoLocal;
+
+    if (std::time(&tempoAtual) == -1) {
+        // Tratar erro ao obter o tempo atual
+        std::cerr << "Erro ao obter o tempo atual." << std::endl;
+        return 1; // Saída com erro
+    }
+
+    if (localtime_s(&tempoLocal, &tempoAtual) != 0) {
+        // Tratar erro ao converter o tempo local
+        std::cerr << "Erro ao converter o tempo local." << std::endl;
+        return 1; // Saída com erro
+    }
+
     char anoAtual[80];
     char anoSistema[80];
-    // Declarando arrays de caracteres para armazenar o ano atual e o ano do sistema
-    std::strftime(anoSistema,sizeof(anoSistema),"%Y",tempoLocal);
-    std::strftime(anoAtual,sizeof(anoAtual),"%d/%m/%Y",tempoLocal);
-    // Formatando o ano do sistema e o ano atual utilizando strftime
-    std::cout<<"Ano do Sistema: "<<anoAtual<<"\n"<<std::endl;
-    std::cout<<"Data do Sistema: "<<anoSistema<<"\n"<<std::endl;
+
+    if (strftime(anoSistema, sizeof(anoSistema), "%Y", &tempoLocal) == 0) {
+        // Tratar erro ao formatar o ano do sistema
+        std::cerr << "Erro ao formatar o ano do sistema." << std::endl;
+        return 1; // Saída com erro
+    }
+
+    if (strftime(anoAtual, sizeof(anoAtual), "%d/%m/%Y", &tempoLocal) == 0) {
+        // Tratar erro ao formatar o ano atual
+        std::cerr << "Erro ao formatar o ano atual." << std::endl;
+        return 1; // Saída com erro
+    }
+    /**
+     * @brief 
+     localtime_s(&tempoLocal, &tempoAtual): Esta função converte o tempo atual (tempoAtual) para uma estrutura tm representando 
+     o tempo local (tempoLocal). O _s no final indica que esta é uma versão segura (safe) da função, projetada para evitar 
+     potenciais problemas de segurança.
+
+!= 0: A função localtime_s retorna 0 em caso de sucesso. Portanto, esta condição verifica se a chamada à função foi bem-sucedida. 
+Se o resultado for diferente de zero, significa que ocorreu um erro.
+
+// Tratar erro ao converter o tempo local: Este comentário indica que o próximo bloco de código será dedicado ao tratamento de 
+erros que ocorram durante a conversão do tempo local.
+
+std::cerr << "Erro ao converter o tempo local." << std::endl;: Esta linha imprime uma mensagem de erro indicando que houve um 
+problema ao converter o tempo local. A mensagem é enviada para a saída de erro padrão (std::cerr), que é geralmente usada para mensagens de erro.
+
+return 1; // Saída com erro: Este comando encerra a execução do programa, retornando 1 como código de saída para indicar que 
+ocorreu um erro durante a execução.
+
+Resumindo, esta parte do código está lidando com possíveis erros que podem ocorrer durante a conversão do tempo local, imprimindo 
+mensagens informativas e encerrando o programa com um código de saída que indica erro.
+
+
+
+
+
+
+     * 
+     */
+
+    
     // Exibindo o ano atual e a data do sistema
     anoSistAtual = std::stoi(anoSistema);
     // Convertendo a string do ano do sistema para inteiro
