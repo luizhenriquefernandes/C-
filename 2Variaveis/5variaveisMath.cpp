@@ -19,5 +19,4 @@ int main(){
     r = (float)pow(x,1.0/2.0);
     std::cout<<"A raiz de "<<x<<" = "<<r<<"\n"<<std::endl; 
     std::cout<<"###########################################################\n"<<std::endl;
-
 }

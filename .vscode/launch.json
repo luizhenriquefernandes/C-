@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/LogicaCPP",
-      "program": "c:/LogicaCPP/build/Debug/outDebug",
+      "cwd": "c:/LogicaCPP/2Variaveis",
+      "program": "c:/LogicaCPP/2Variaveis/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
