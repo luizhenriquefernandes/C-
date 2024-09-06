@@ -1,0 +1,3 @@
+﻿  funcoes.cpp
+C:\Users\sn1082031\Documents\logicacpp\funcoes\funcoes\funcoes.cpp(27,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+  funcoes.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\funcoes\x64\Debug\funcoes.exe

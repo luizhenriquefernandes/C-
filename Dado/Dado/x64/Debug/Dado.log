@@ -1,0 +1,4 @@
+﻿  Dado.cpp
+C:\Users\sn1082031\Documents\logicacpp\Dado\Dado\Dado.cpp(13,13): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\Dado\Dado\Dado.cpp(16,12): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  Dado.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\Dado\x64\Debug\Dado.exe

@@ -1,0 +1,3 @@
+﻿  doWhile.cpp
+C:\Users\sn1082031\Documents\logicacpp\doWhile\doWhile\doWhile.cpp(6,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+  doWhile.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\doWhile\x64\Debug\doWhile.exe
