@@ -1,0 +1,4 @@
+﻿  aula06_exercicio_par_impar.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula06_exercicio_par_impar\aula06_exercicio_par_impar\aula06_exercicio_par_impar.cpp(16,13): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\aula06_exercicio_par_impar\aula06_exercicio_par_impar\aula06_exercicio_par_impar.cpp(30,12): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  aula06_exercicio_par_impar.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula06_exercicio_par_impar\x64\Debug\aula06_exercicio_par_impar.exe
