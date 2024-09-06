@@ -1,0 +1,4 @@
+﻿  binario.cpp
+C:\Users\sn1082031\Documents\logicacpp\binario\binario\binario.cpp(34,19): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\sn1082031\Documents\logicacpp\binario\binario\binario.cpp(40,24): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+  binario.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\binario\x64\Debug\binario.exe
