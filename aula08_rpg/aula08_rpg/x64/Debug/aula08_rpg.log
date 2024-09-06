@@ -1,0 +1,4 @@
+﻿  aula08_rpg.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula08_rpg\aula08_rpg\aula08_rpg.cpp(21,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\aula08_rpg\aula08_rpg\aula08_rpg.cpp(28,12): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  aula08_rpg.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula08_rpg\x64\Debug\aula08_rpg.exe

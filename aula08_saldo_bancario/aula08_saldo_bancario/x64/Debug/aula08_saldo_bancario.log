@@ -1,0 +1,4 @@
+﻿  aula08_saldo_bancario.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula08_saldo_bancario\aula08_saldo_bancario\aula08_saldo_bancario.cpp(15,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\aula08_saldo_bancario\aula08_saldo_bancario\aula08_saldo_bancario.cpp(45,46): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+  aula08_saldo_bancario.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula08_saldo_bancario\x64\Debug\aula08_saldo_bancario.exe
