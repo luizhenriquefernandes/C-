@@ -1,0 +1,3 @@
+﻿  lista.cpp
+C:\Users\sn1082031\Documents\logicacpp\lista\lista\lista.cpp(7,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+  lista.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\lista\x64\Debug\lista.exe
