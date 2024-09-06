@@ -1,0 +1,3 @@
+﻿  aula11_fibonatti.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula11_fibonatti\aula11_fibonatti\aula11_fibonatti.cpp(9,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+  aula11_fibonatti.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula11_fibonatti\x64\Debug\aula11_fibonatti.exe

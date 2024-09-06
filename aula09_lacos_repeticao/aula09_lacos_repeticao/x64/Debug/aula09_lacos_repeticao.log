@@ -1,0 +1,4 @@
+﻿  aula09_lacos_repeticao.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula09_lacos_repeticao\aula09_lacos_repeticao\aula09_lacos_repeticao.cpp(7,13): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\aula09_lacos_repeticao\aula09_lacos_repeticao\aula09_lacos_repeticao.cpp(9,36): warning C4101: 'media': variável local não referenciada
+  aula09_lacos_repeticao.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula09_lacos_repeticao\x64\Debug\aula09_lacos_repeticao.exe

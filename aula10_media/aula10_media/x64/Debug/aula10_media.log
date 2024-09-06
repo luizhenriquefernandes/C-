@@ -1,0 +1,4 @@
+﻿  aula10_media.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula10_media\aula10_media\aula10_media.cpp(8,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\aula10_media\aula10_media\aula10_media.cpp(19,12): warning C4129: 'D': sequência de escape de caractere não reconhecida
+  aula10_media.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula10_media\x64\Debug\aula10_media.exe
