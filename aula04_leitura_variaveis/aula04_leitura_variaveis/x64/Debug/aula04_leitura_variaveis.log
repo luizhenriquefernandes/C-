@@ -1,0 +1,4 @@
+﻿  aula04_leitura_variaveis.cpp
+C:\Users\sn1082031\Documents\logicacpp\aula04_leitura_variaveis\aula04_leitura_variaveis\aula04_leitura_variaveis.cpp(14,1): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+C:\Users\sn1082031\Documents\logicacpp\aula04_leitura_variaveis\aula04_leitura_variaveis\aula04_leitura_variaveis.cpp(17,9): warning C4101: 'idade': variável local não referenciada
+  aula04_leitura_variaveis.vcxproj -> C:\Users\sn1082031\Documents\logicacpp\aula04_leitura_variaveis\x64\Debug\aula04_leitura_variaveis.exe
